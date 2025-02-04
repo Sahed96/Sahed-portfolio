@@ -1,6 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
-import { HashLink as Link } from "react-router-hash-link";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaSquareFacebook } from 'react-icons/fa6';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Nav = () => {
   const navList = (
@@ -38,7 +38,9 @@ const Nav = () => {
             {navList}
           </ul>
         </div>
-        <a className="lg:text-4xl text-3xl font-bold">GolamRosul</a>
+        <a className="lg:text-4xl text-3xl font-bold">
+          Golam<span className="text-[#70FF00]">R</span>osul
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu gap-12 text-4xl font-semibold menu-horizontal px-1">
